@@ -1,7 +1,7 @@
 {
-  "name": "my-ts-library",
+  "name": "typescript-library-template",
   "version": "0.5.10",
-  "description": "My TypeScript Library",
+  "description": "A simple and professional template for developing and maintaining TypeScript libraries with modern tools, automated releases, and best practices.",
   "type": "module",
   "main": "dist/index.js",
   "files": [
@@ -16,12 +16,12 @@
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup",
+    "format": "prettier --write .",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:ui": "vitest --ui",
-    "format": "prettier --write .",
     "check-exports": "attw --pack .",
     "prepare": "husky",
     "release": "release-it --only-version",
@@ -37,17 +37,32 @@
   },
   "keywords": [
     "typescript",
-    "library"
+    "tsup",
+    "prettier",
+    "eslint",
+    "vitest",
+    "husky",
+    "lint-staged",
+    "commit-lint",
+    "release-it",
+    "github-actions",
+    "dependabot",
+    "vitepress",
+    "ci-cd",
+    "boilerplate",
+    "starter",
+    "library-template",
+    "open-source"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/mattpocock/tt-package-demo",
+  "homepage": "https://github.com/fvena/typescript-library-template.git",
   "bugs": {
-    "url": "https://github.com/mattpocock/tt-package-demo/issues"
+    "url": "https://github.com/fvena/typescript-library-template.git/issues"
   },
-  "author": "Matt Pocock <team@totaltypescript.com> (https://totaltypescript.com)",
+  "author": "Francisco Vena <fvena32@gmail.com> (https://www.fvena.com)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattpocock/tt-package-demo.git"
+    "url": "git+https://github.com/fvena/typescript-library-template.git.git"
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.17.0",
@@ -72,5 +87,8 @@
     "typescript-eslint": "^8.17.0",
     "vitepress": "^1.5.0",
     "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=22.11.0"
   }
 }

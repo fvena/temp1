@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.0 (2024-12-04)
+
+- feat: simplify release command by removing verbosity flag ([60adf69](https://github.com/mattpocock/tt-package-demo/commit/60adf69))
+
 ## <small>0.2.7 (2024-12-04)</small>
 
 ## <small>0.2.6 (2024-12-04)</small>

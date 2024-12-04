@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.9 (2024-12-04)</small>
+
+- refactor: update concurrency group in deploy workflow to use run ID ([ca84936](https://github.com/mattpocock/tt-package-demo/commit/ca84936))
+
 ## <small>0.5.8 (2024-12-04)</small>
 
 - refactor: update deploy workflow to trigger on completion of Publish workflow ([7dc40df](https://github.com/mattpocock/tt-package-demo/commit/7dc40df))

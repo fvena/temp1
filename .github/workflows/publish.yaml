@@ -1,13 +1,12 @@
 name: Publish
 
 on:
-  workflow_run:
-    workflows: [CI]
-    types: [completed]
+  push:
+    tags:
+      - "v*"
 
 jobs:
-  run_if_label_matches:
-    if: startsWith(github.event.workflow_run.head_branch, 'v')
+  publish:
     name: Publish to NPM
     runs-on: ubuntu-latest
 

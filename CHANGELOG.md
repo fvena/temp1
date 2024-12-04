@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.8 (2024-12-04)</small>
+
+- refactor: update deploy workflow to trigger on completion of Publish workflow ([7dc40df](https://github.com/mattpocock/tt-package-demo/commit/7dc40df))
+
 ## <small>0.5.7 (2024-12-04)</small>
 
 - refactor: remove workflow_run triggers from deploy and publish configurations ([a82f892](https://github.com/mattpocock/tt-package-demo/commit/a82f892))

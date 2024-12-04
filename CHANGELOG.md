@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.12 (2024-12-04)</small>
+
+- refactor: update publish workflow permissions and fix registry URL format ([f4d9441](https://github.com/fvena/typescript-library-template.git/commit/f4d9441))
+
 ## <small>0.5.11 (2024-12-04)</small>
 
 - refactor: update workflows and documentation for TypeScript library template ([6af6500](https://github.com/fvena/typescript-library-template.git/commit/6af6500))

@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.6 (2024-12-04)</small>
+
+- refactor: streamline workflow_run types in deploy and publish configurations ([78a47be](https://github.com/mattpocock/tt-package-demo/commit/78a47be))
+
 ## <small>0.5.5 (2024-12-04)</small>
 
 - refactor: remove pull_request trigger from CI workflow ([7d8ef9e](https://github.com/mattpocock/tt-package-demo/commit/7d8ef9e))

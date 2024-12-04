@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.11 (2024-12-04)</small>
+
+- refactor: update workflows and documentation for TypeScript library template ([6af6500](https://github.com/fvena/typescript-library-template.git/commit/6af6500))
+
 ## <small>0.5.10 (2024-12-04)</small>
 
 - refactor: modify publish workflow to run conditionally based on branch naming ([81b888f](https://github.com/mattpocock/tt-package-demo/commit/81b888f))

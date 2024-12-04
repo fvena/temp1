@@ -1,5 +1,11 @@
 # Changelog
 
+## <small>0.5.10 (2024-12-04)</small>
+
+- refactor: modify publish workflow to run conditionally based on branch naming ([81b888f](https://github.com/mattpocock/tt-package-demo/commit/81b888f))
+- refactor: update concurrency group in deploy workflow and modify publish workflow trigger ([fd7101d](https://github.com/mattpocock/tt-package-demo/commit/fd7101d))
+- refactor: update publish workflow to trigger on version tag pushes ([3ba5ec4](https://github.com/mattpocock/tt-package-demo/commit/3ba5ec4))
+
 ## <small>0.5.9 (2024-12-04)</small>
 
 - refactor: update concurrency group in deploy workflow to use run ID ([ca84936](https://github.com/mattpocock/tt-package-demo/commit/ca84936))

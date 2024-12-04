@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.5 (2024-12-04)</small>
+
+- refactor: remove pull_request trigger from CI workflow ([7d8ef9e](https://github.com/mattpocock/tt-package-demo/commit/7d8ef9e))
+
 ## <small>0.5.4 (2024-12-04)</small>
 
 - refactor: simplify workflow names and adjust dependencies in deploy and publish configurations ([6582c57](https://github.com/mattpocock/tt-package-demo/commit/6582c57))

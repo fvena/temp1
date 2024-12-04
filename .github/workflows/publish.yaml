@@ -1,12 +1,11 @@
-name: Publish and Deploy
+name: Publish
 
 on:
   push:
     tags:
       - "v*"
   workflow_run:
-    workflows:
-      - CI
+    workflows: [CI]
     types:
       - completed
 

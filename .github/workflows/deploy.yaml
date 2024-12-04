@@ -1,12 +1,11 @@
-name: Deploy VitePress
+name: Deploy
 
 on:
   push:
     tags:
       - "v*"
   workflow_run:
-    workflows:
-      - CI
+    workflows: [Publish]
     types:
       - completed
 
@@ -24,6 +23,7 @@ concurrency:
 
 jobs:
   build:
+    name: Build VitePress
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -52,7 +52,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     needs: build
     runs-on: ubuntu-latest
-    name: Deploy
+    name: Deploy to GitHub Pages
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

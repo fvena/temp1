@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.0 (2024-12-04)
+
+- feat: add VitePress documentation and deployment workflow ([05d3eb0](https://github.com/mattpocock/tt-package-demo/commit/05d3eb0))
+
 ## 0.4.0 (2024-12-04)
 
 - feat: enable automatic push after release tagging ([084dd9f](https://github.com/mattpocock/tt-package-demo/commit/084dd9f))

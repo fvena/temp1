@@ -9,7 +9,7 @@ import prettierPlugin from "eslint-plugin-prettier/recommended";
 /** @type {import('eslint').Linter.Config[]} */
 export default [
   {
-    ignores: ["node_modules", "dist", "*.config.*"],
+    ignores: ["node_modules", "dist", "*.config.*", "docs"],
   },
   {
     files: ["**/*.{js,mjs,cjs,ts}"],

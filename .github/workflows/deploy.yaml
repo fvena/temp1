@@ -4,9 +4,6 @@ on:
   push:
     tags:
       - "v*"
-  workflow_run:
-    workflows: [Publish]
-    types: [completed]
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:

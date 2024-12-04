@@ -24,7 +24,7 @@
     "format": "prettier --write .",
     "check-exports": "attw --pack .",
     "prepare": "husky",
-    "release": "release-it --only-version --verbose"
+    "release": "release-it --only-version"
   },
   "lint-staged": {
     "**/*.{js,ts}": [

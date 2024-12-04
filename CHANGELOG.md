@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.2 (2024-12-04)</small>
+
+- fix: update CI workflow to trigger on main branch and adjust deploy workflow ([71ddfeb](https://github.com/mattpocock/tt-package-demo/commit/71ddfeb))
+
 ## <small>0.5.1 (2024-12-04)</small>
 
 - fix: update VitePress base path and remove pre-init hooks from release configuration ([66f482a](https://github.com/mattpocock/tt-package-demo/commit/66f482a))

@@ -1,16 +1,19 @@
-name: Release
+name: Publish and Deploy
 
 on:
   push:
     tags:
       - "v*"
+  workflow_run:
+    workflows:
+      - CI
+    types:
+      - completed
 
 jobs:
-  release:
+  publish:
+    name: Publish to NPM
     runs-on: ubuntu-latest
-
-    environment:
-      name: Release
 
     steps:
       - uses: actions/checkout@v4
@@ -27,7 +30,7 @@ jobs:
       - name: Build the library
         run: npm run build
 
-      - name: Publish to NPM
-        run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      # - name: Publish to NPM
+      #   run: npm publish --access public
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

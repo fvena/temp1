@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.3 (2024-12-04)</small>
+
+- refactor: rename workflows and enhance CI/CD configuration ([ba1e403](https://github.com/mattpocock/tt-package-demo/commit/ba1e403))
+
 ## <small>0.5.2 (2024-12-04)</small>
 
 - fix: update CI workflow to trigger on main branch and adjust deploy workflow ([71ddfeb](https://github.com/mattpocock/tt-package-demo/commit/71ddfeb))

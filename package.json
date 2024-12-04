@@ -1,6 +1,6 @@
 {
   "name": "my-ts-library",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "My TypeScript Library",
   "type": "module",
   "main": "dist/index.js",

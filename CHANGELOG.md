@@ -1,5 +1,7 @@
 # Changelog
 
+## <small>0.2.7 (2024-12-04)</small>
+
 ## <small>0.2.6 (2024-12-04)</small>
 
 ## <small>0.2.5 (2024-12-04)</small>

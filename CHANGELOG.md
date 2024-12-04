@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.0 (2024-12-04)
+
+- feat: enable automatic push after release tagging ([084dd9f](https://github.com/mattpocock/tt-package-demo/commit/084dd9f))
+
 ## 0.3.0 (2024-12-04)
 
 - feat: simplify release command by removing verbosity flag ([60adf69](https://github.com/mattpocock/tt-package-demo/commit/60adf69))

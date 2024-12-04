@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.1 (2024-12-04)</small>
+
+- fix: update VitePress base path and remove pre-init hooks from release configuration ([66f482a](https://github.com/mattpocock/tt-package-demo/commit/66f482a))
+
 ## 0.5.0 (2024-12-04)
 
 - feat: add VitePress documentation and deployment workflow ([05d3eb0](https://github.com/mattpocock/tt-package-demo/commit/05d3eb0))

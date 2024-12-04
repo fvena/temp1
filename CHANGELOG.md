@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.7 (2024-12-04)</small>
+
+- refactor: remove workflow_run triggers from deploy and publish configurations ([a82f892](https://github.com/mattpocock/tt-package-demo/commit/a82f892))
+
 ## <small>0.5.6 (2024-12-04)</small>
 
 - refactor: streamline workflow_run types in deploy and publish configurations ([78a47be](https://github.com/mattpocock/tt-package-demo/commit/78a47be))

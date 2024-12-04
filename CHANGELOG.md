@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.4 (2024-12-04)</small>
+
+- refactor: simplify workflow names and adjust dependencies in deploy and publish configurations ([6582c57](https://github.com/mattpocock/tt-package-demo/commit/6582c57))
+
 ## <small>0.5.3 (2024-12-04)</small>
 
 - refactor: rename workflows and enhance CI/CD configuration ([ba1e403](https://github.com/mattpocock/tt-package-demo/commit/ba1e403))

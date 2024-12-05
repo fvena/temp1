@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.22 (2024-12-05)</small>
+
+- fix: add conditional check for successful workflow run in deploy.yml ([22b089e](https://github.com/fvena/typescript-library-template.git/commit/22b089e))
+
 ## <small>0.5.21 (2024-12-05)</small>
 
 - fix: update NPM token secret in publish workflow ([bd8b3a9](https://github.com/fvena/typescript-library-template.git/commit/bd8b3a9))

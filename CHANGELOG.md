@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.24 (2024-12-05)</small>
+
+- fix: add conditional execution for NPM publish workflow based on CI completion ([0a47b09](https://github.com/fvena/typescript-library-template.git/commit/0a47b09))
+
 ## <small>0.5.23 (2024-12-05)</small>
 
 - fix: update NPM token secret in publish workflow ([9f996ec](https://github.com/fvena/typescript-library-template.git/commit/9f996ec))

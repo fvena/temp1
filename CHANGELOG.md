@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.26 (2024-12-05)</small>
+
+- fix: enable cancellation of in-progress workflows and enforce job dependencies in CI ([c45d68c](https://github.com/fvena/typescript-library-template.git/commit/c45d68c))
+
 ## <small>0.5.25 (2024-12-05)</small>
 
 - refactor: reorganize workflows and update NPM publish process ([49be714](https://github.com/fvena/typescript-library-template.git/commit/49be714))

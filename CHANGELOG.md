@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.32 (2024-12-05)</small>
+
+- fix: update CI workflow to use github.ref_type for tag checks ([5fac91f](https://github.com/fvena/typescript-library-template.git/commit/5fac91f))
+
 ## <small>0.5.31 (2024-12-05)</small>
 
 - fix: update CI workflow to remove tag trigger and standardize on Ubuntu 22.04 ([e5a7d74](https://github.com/fvena/typescript-library-template.git/commit/e5a7d74))

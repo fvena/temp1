@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.14 (2024-12-05)</small>
+
+- refactor: rename publish workflow to release and simplify setup steps ([8d47c21](https://github.com/fvena/typescript-library-template.git/commit/8d47c21))
+
 ## <small>0.5.13 (2024-12-05)</small>
 
 - refactor: simplify NPM publish command and add publishConfig for public access ([3c7c6e1](https://github.com/fvena/typescript-library-template.git/commit/3c7c6e1))

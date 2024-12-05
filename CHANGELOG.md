@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.7.1 (2024-12-05)</small>
+
+- fix: update CI workflows to use Ubuntu 22.04 for consistency ([66bd63b](https://github.com/fvena/typescript-library-template.git/commit/66bd63b))
+
 ## 0.7.0 (2024-12-05)
 
 - fix: add conditional check for release commit message before publishing to NPM ([1edc540](https://github.com/fvena/typescript-library-template.git/commit/1edc540))

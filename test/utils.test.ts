@@ -1,7 +1,9 @@
-import { expect, test } from "vitest";
+import { describe, expect, it } from "vitest";
 
 import { add } from "../src/utils.js";
 
-test("add", () => {
-  expect(add(1, 2)).toBe(3);
+describe("Utils", () => {
+  it("add", () => {
+    expect(add(1, 2)).toBe(3);
+  });
 });

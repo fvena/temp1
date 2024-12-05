@@ -1,149 +1,189 @@
 # TypeScript Library Template
 
-A simple and professional template for developing and maintaining TypeScript libraries with modern tools, automated releases, and best practices.
+A simple, professional, and modern template for building and maintaining TypeScript libraries. This template integrates the best tools, workflows, and practices to help you focus on developing your library without worrying about setup.
 
-## Features
+## 🚀 Features
 
-- **[TypeScript](https://www.typescriptlang.org)**: Write maintainable and strongly-typed code.
-- **[Tsup](https://tsup.egoist.dev)**: Bundle the library for both ESM and CommonJS.
-- **[Prettier](https://prettier.io)**: Enforce consistent code style.
-- **[ESLint](https://eslint.org)**: Analyze and fix code issues.
-- **[Vitest](https://vitest.dev)**: Modern testing framework with excellent developer experience.
-- **[Husky](https://typicode.github.io/husky/) & [Lint-Staged](https://github.com/lint-staged/lint-staged)**: Automate code checks on commits.
-- **[Commitlint](https://commitlint.js.org)**: Enforce conventional commit messages.
-- **[Release-it](https://github.com/release-it/release-it)**: Automate versioning and changelog generation for releases.
-- **[Github Actions](https://github.com/features/actions)**: CI/CD with Github Actions.
-- **[Dependabot](https://docs.github.com/en/code-security/dependabot)**: Keep dependencies up-to-date.
-- **[Vitepress](https://vitepress.dev)**: Generate beautiful documentation with Vitepress.
-- **[AreTheTypesWrong](https://www.npmjs.com/package/@arethetypeswrong/cli)**: Ensure type accuracy for published packages.
+- **TypeScript First**: Full support for modern TypeScript features with strict typing.
+- **Effortless Build**: Uses [Tsup](https://tsup.egoist.dev) for fast and simple builds. Supports both ESM and CommonJS.
+- **Code Quality**: Preconfigured [ESLint](https://eslint.org) and [Prettier](https://prettier.io)ensure a clean, maintainable codebase.
+- **Testing Ready**: Includes [Vitest](https://vitest.dev) for fast, reliable unit testing.
+- **Conventional Commits**: Enforces commit message standards with [Commitlint](https://commitlint.js.org) and [Husky](https://typicode.github.io/husky/).
+- **Documentation**: Powered by [Vitepress](https://vitepress.dev) for easy and interactive documentation.
+- **Automated Releases**: Handles versioning and changelogs with [Release-it](https://github.com/release-it/release-it).
+- **CI/CD Pipelines**: Configured with [Github Actions](https://github.com/features/actions) for linting, testing, publishing, and deploying docs.
+- **Dependabot Integration**: Keeps your dependencies updated automatically.
 
-## Getting Started
+## 📦 Getting Started
 
-### Github Template
+### 1. Create Your Repository
 
-This is a template repo. Click the green `Use this template` button to get started.
-
-### Clone the repository
+You can start using this template by clicking the green "Use this template" button or cloning the repository:
 
 ```bash
 git clone https://github.com/fvena/typescript-library-template.git
 cd typescript-library-template
+```
+
+### 2. Reset Git History
+
+Reset the git history and initialize a fresh repository for your project:
+
+```bash
+rm -rf .git
+git init
+```
+
+### 3. Install dependencies
+
+**Important**: install the dependencies after updating the repository.
+
+```bash
 npm install
 ```
 
-## Checklist
+### 4. Update Project Information
 
-When you use this template, make sure to update the following:
+Make sure to update the following files:
 
-- [ ] Remove `.git` directory and initialize a new git repository `rm -rf .git && git init`
-- [ ] Install dependencies `npm install` (**Important**: install the dependencies after update the repository)
-- [ ] Update the `package.json` file with your library information (name, version, description, etc.)
-- [ ] Update the `LICENSE` file with your name or organization and the year
-- [ ] Update the `README.md` file with your library information
-- [ ] Remove `CHANGELOG.md` file
-- [ ] Setup `NPM_TOKEN` in the Github repository secrets (follow the [instructions](#setup-npm-token-in-repository-secrets) below)
-- [ ] In your repository's settings under "Pages" menu item, select `Github Actions` in `Build and deployment` source
+- `package.json`: Update `name`, `version`, `description`, `author`, `repository`and other relevant fields.
+- `LICENSE`: Update the copyright year and author information.
+- `README.md`: Replace file with `README_TEMPLATE.md` and update the content.
+- `CHANGELOG.md`: Remove the file to start fresh.
 
-And, enjoy coding your library :)
+### 5. Setup NPM token
 
-## Usage
+To publish your library to NPM, you'll need to set up an NPM token:
 
-The template contains the following scripts:
+#### Get your NPM token
 
-- `dev` - Start a development environment.
-- `build` - Bundle the library for production.
-- `format` - Format the code with Prettier.
-- `typecheck` - Check types with TypeScript.
-- `lint` - Analyze code issues with ESLint.
-- `test` - Run tests with Vitest.
-- `test:watch` - Run tests in watch mode.
-- `check-exports` - Check type accuracy for published packages.
-- `prepare` - Script for setting up husky hooks.
-- `release` - Release a new version.
-- `doc:dev` - Start a development environment for documentation.
-- `doc:build` - Build the documentation for production.
-- `doc:preview` - Preview the built documentation locally.
+1. Go to the [npm website](https://www.npmjs.com)
+1. Log in to your account
+1. In your avatar dropdown, click on `Access Tokens`
+1. Click on `Generate New Token`
+1. Set the token name (ex: library name)
+1. Select `Automation` type and click on `Generate Token`
+1. Copy the generated token
 
-## Development Workflow
+#### Add the NPM token to the Github repository secrets
+
+1. Go to your Github repository
+1. Click on `Settings` tab
+1. Click on `Secrets and variables` > `Actions` in the left sidebar
+1. Click on `New repository secret`
+1. Use the `NPM_TOKEN` as the secret name and paste the token value
+1. Click on `Add secret`
+
+### 6. Setup Github Pages for documentation
+
+1. Go to your Github repository
+1. Click on `Settings` tab
+1. Click on `Pages` in the left sidebar
+1. Select `Github Actions` in `Build and deployment` source
+
+## 📑 Scripts Overview
+
+| Script          | Description                                        |
+| --------------- | -------------------------------------------------- |
+| `dev`           | Starts `tsup` in watch mode for development.       |
+| `build`         | Bundle the library for production.                 |
+| `format`        | Format the code with Prettier.                     |
+| `typecheck`     | Check types with TypeScript.                       |
+| `lint`          | Lints the codebase with ESLint.                    |
+| `test`          | Run tests with Vitest.                             |
+| `test:watch`    | Run tests in watch mode for development.           |
+| `test:ui`       | Run tests with the Vitest UI.                      |
+| `check-exports` | Check type accuracy for published packages.        |
+| `release`       | Release a new version.                             |
+| `doc:dev`       | Starts a local server for VitePress documentation. |
+| `doc:build`     | Build the documentation for production.            |
+| `doc:preview`   | Preview the built documentation locally.           |
+
+## 🔄 Development Workflow
 
 This template is set up with a single branch workflow. This means that you will make changes directly in the `main` branch. This approach is suitable for small projects and solo developers. Here is the workflow:
 
-### Development
+1. Make changes directly in the `main` branch.
+1. Use [conventional commit messages](https://gist.github.com/fvena/89e706aaf74705a83c7c39a171da466c).
+1. Push changes to trigger the CI pipeline for linting and testing.
 
-- Make changes directly in the `main` branch.
-- Commit your changes with [conventional commit messages](https://gist.github.com/fvena/89e706aaf74705a83c7c39a171da466c).
-- Push your changes to the remote repository.
-- The CI github action will lint the code and run the tests.
+## Releasing a Version
 
-### Release
+1. Run the release script locally to bump the version and generate a changelog. The release script will:
 
-- Run the release process manually from your local machine when you are ready to release a new version `npm run release`.
-- The release process will:
-  - Bump the version based on the commit messages.
-  - Generate a changelog.
-  - Create a new git tag.
-  - Push the changes to the remote repository.
-- The Publish github action will publish the new version to npm.
-- The Deploy github action will deploy the documentation to Github Pages.
+   - Update the version based on the commit messages.
+   - Generate a changelog.
+   - Create a new git tag.
+   - Push changes and tags to the repository.
 
-## Test your library locally
-
-To test your library locally, you can use the `npm link` command. Here is how you can do it:
-
-1. Run `npm link` in the root of your library
-2. Run `npm link <your-library-name>` in the project where you want to use your library
-3. Now you can import your library in the project
-
-   ```javascript
-   import { yourFunction } from "<your-library-name>";
+   ```bash
+   npm run release
    ```
 
-After testing, you can unlink the library by running `npm unlink <your-library-name>` in the project where you linked the library.
+1. The CI/CD pipeline will publish the new version to NPM and deploy updated documentation to Github Pages.
 
-1. Run `npm unlink` in the root of your library
-2. Run `npm unlink <your-library-name>` in the project where you want to use your library
+## 📖 Documentation
 
-## Setup NPM token in repository secrets
+This template includes a preconfigured docs folder powered by Vitepress. To start writing documentation:
 
-To publish the package to npm, you need to set up the `NPM_TOKEN` in the Github repository secrets. Here is how you can do it:
+1. Edit or add markdown files in the docs folder.
+2. Start a local preview with:
 
-### Get your NPM token
+   ```bash
+   npm run docs:dev
+   ```
 
-1. Go to the [npm website](https://www.npmjs.com)
-2. Log in to your account
-3. In your avatar dropdown, click on `Access Tokens`
-4. Click on `Generate New Token`
-5. Set the token name (ex: library name)
-6. Select `Automation` type and click on `Generate Token`
-7. Copy the generated token
+## 🧩 FAQs
 
-### Add the NPM token to the Github repository secrets
-
-1. Go to your Github repository
-2. Click on `Settings` tab
-3. Click on `Secrets and variables` > `Actions` in the left sidebar
-4. Click on `New repository secret`
-5. Use the `NPM_TOKEN` as the secret name and paste the token value
-6. Click on `Add secret`
-
-## FAQ
-
-### Error to publish the package to npm
+<details>
+  <summary><strong>Error to publish the package to npm</strong></summary>
 
 - `npm ERR! code E403`: This error occurs when your email is not verified in npm or if the package name is already taken.
 
 - `npm error code ENEEDAUTH`: This error occurs when the npm token is not set up correctly.
 
-## Acknowledgements
+</details>
 
-If you find this template useful, please give it a star. It will help others to discover it.
+<details>
+  <summary><strong>How do I test my library locally?</strong></summary>
 
-## Used by
+- You can use `npm link` to test your library in a local project:
 
-- [Your project]()
+  1. Run `npm link` in your library root.
+  1. In the project where you want to use your library, run `npm link <your-library-name>`
 
-If you are using this template, feel free to open a PR to add your project to the list.
+- To unlink:
 
-## License
+  1. Run `npm unlink <your-library-name>` in the project where you want to use your library
+  1. Run `npm unlink` in your library root.
+
+</details>
+
+<details>
+  <summary><strong>How do I disable documentation?</strong></summary>
+
+- If you don't need documentation:
+
+  1. Remove the `docs` folder and related `docs:*` scripts from `package.json`.
+  1. Remove `vitepress` from the `devDependencies`.
+  1. Delete the `buildDocs` and `deployDocs` jobs from the `.github/workflows/ci.yml` file.
+
+</details>
+
+## 🤝 Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+1. Create a new branch (git checkout -b feature/my-feature).
+1. Make your changes and write tests.
+1. Commit your changes with conventional message.
+1. Push your branch and open a Pull Request.
+
+## 📜 License
 
 This template was created under the [MIT License](./LICENSE).
+
+## 🌟 Acknowledgements
+
+If you find this template useful, please give it a ⭐ on GitHub! This helps others discover it and supports further development.

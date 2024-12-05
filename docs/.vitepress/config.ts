@@ -2,9 +2,9 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Temp 1",
-  description: "A Vitepress Site",
-  base: "/temp1/",
+  title: "Your Library Name",
+  description: "Description of your library",
+  base: "/your-repository-name/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -24,4 +24,8 @@ export default defineConfig({
 
     socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],
   },
+  head: [
+    ["meta", { name: "keywords", content: "typescript, library, template" }],
+    ["meta", { name: "author", content: "Francisco Vena" }],
+  ],
 });

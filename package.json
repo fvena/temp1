@@ -23,7 +23,7 @@
     "test:watch": "vitest",
     "test:ui": "vitest --ui",
     "check-exports": "attw --pack .",
-    "prepare": "husky",
+    "prepare": "husky install",
     "release": "release-it --only-version",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",

@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.30 (2024-12-05)</small>
+
+- fix: update CI workflow to use ubuntu-latest for deployment ([03eefb4](https://github.com/fvena/typescript-library-template.git/commit/03eefb4))
+
 ## <small>0.5.29 (2024-12-05)</small>
 
 ## <small>0.5.28 (2024-12-05)</small>

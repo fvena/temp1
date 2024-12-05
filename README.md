@@ -128,6 +128,12 @@ To publish the package to npm, you need to set up the `NPM_TOKEN` in the Github 
 7. Use the `NPM_TOKEN` as the secret name and paste the token value
 8. Click on `Add secret`
 
+## FAQ
+
+### Error to publish the package to npm
+
+- `npm ERR! code E403`: This error occurs when your email is not verified in npm or if the package name is already taken.
+
 ## Acknowledgements
 
 If you find this template useful, please give it a star. It will help others to discover it.

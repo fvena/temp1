@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.15 (2024-12-05)</small>
+
+- refactor: update release workflow to improve environment setup and fetch depth ([622a99e](https://github.com/fvena/typescript-library-template.git/commit/622a99e))
+
 ## <small>0.5.14 (2024-12-05)</small>
 
 - refactor: rename publish workflow to release and simplify setup steps ([8d47c21](https://github.com/fvena/typescript-library-template.git/commit/8d47c21))

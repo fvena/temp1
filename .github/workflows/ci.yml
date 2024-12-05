@@ -17,7 +17,7 @@ concurrency:
 jobs:
   lint:
     name: Lint and Typecheck
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - uses: actions/checkout@v4
@@ -31,7 +31,7 @@ jobs:
 
   test:
     name: Test
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - uses: actions/checkout@v4
@@ -45,7 +45,7 @@ jobs:
 
   publish:
     name: Publish to NPM
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: [lint, test] # Publicar solo si lint y test son exitosos
     if: startsWith(github.event.head_commit.message, 'chore(release):')
 
@@ -68,7 +68,7 @@ jobs:
 
   buildDocs:
     name: Build VitePress
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: publish
 
     steps:
@@ -93,7 +93,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     name: Deploy to GitHub Pages
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: buildDocs
 
     steps:

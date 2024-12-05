@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.21 (2024-12-05)</small>
+
+- fix: update NPM token secret in publish workflow ([bd8b3a9](https://github.com/fvena/typescript-library-template.git/commit/bd8b3a9))
+
 ## <small>0.5.20 (2024-12-05)</small>
 
 - chore: rename package to typescript-library-template-didor ([6205008](https://github.com/fvena/typescript-library-template.git/commit/6205008))

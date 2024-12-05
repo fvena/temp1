@@ -1,6 +1,6 @@
 {
   "name": "typescript-library-template",
-  "version": "0.5.17",
+  "version": "0.5.18",
   "description": "A simple and professional template for developing and maintaining TypeScript libraries with modern tools, automated releases, and best practices.",
   "type": "module",
   "main": "dist/index.js",

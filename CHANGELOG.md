@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.18 (2024-12-05)</small>
+
+- fix: update npm publish command to include public access and enhance README ([d425452](https://github.com/fvena/typescript-library-template.git/commit/d425452))
+
 ## <small>0.5.17 (2024-12-05)</small>
 
 - refactor: rename release workflow to publish and update NPM token secret ([de6659c](https://github.com/fvena/typescript-library-template.git/commit/de6659c))

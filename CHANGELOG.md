@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.6.1 (2024-12-05)</small>
+
+- fix: update tag pattern in release workflow ([102f8f2](https://github.com/fvena/typescript-library-template.git/commit/102f8f2))
+
 ## 0.6.0 (2024-12-05)
 
 - feat: restructure CI workflows and add release process ([4ae0f02](https://github.com/fvena/typescript-library-template.git/commit/4ae0f02))

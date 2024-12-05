@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.0 (2024-12-05)
+
+- feat: restructure CI workflows and add release process ([4ae0f02](https://github.com/fvena/typescript-library-template.git/commit/4ae0f02))
+
 ## <small>0.5.33 (2024-12-05)</small>
 
 - fix: remove tag condition from CI workflow jobs ([f9af03f](https://github.com/fvena/typescript-library-template.git/commit/f9af03f))

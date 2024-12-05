@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.16 (2024-12-05)</small>
+
+- fix: update NPM authentication token secret name in release workflow ([94b8df0](https://github.com/fvena/typescript-library-template.git/commit/94b8df0))
+
 ## <small>0.5.15 (2024-12-05)</small>
 
 - refactor: update release workflow to improve environment setup and fetch depth ([622a99e](https://github.com/fvena/typescript-library-template.git/commit/622a99e))

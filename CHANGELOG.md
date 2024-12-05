@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.33 (2024-12-05)</small>
+
+- fix: remove tag condition from CI workflow jobs ([f9af03f](https://github.com/fvena/typescript-library-template.git/commit/f9af03f))
+
 ## <small>0.5.32 (2024-12-05)</small>
 
 - fix: update CI workflow to use github.ref_type for tag checks ([5fac91f](https://github.com/fvena/typescript-library-template.git/commit/5fac91f))

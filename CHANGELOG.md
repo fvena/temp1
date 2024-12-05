@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.20 (2024-12-05)</small>
+
+- chore: rename package to typescript-library-template-didor ([6205008](https://github.com/fvena/typescript-library-template.git/commit/6205008))
+
 ## <small>0.5.19 (2024-12-05)</small>
 
 ## <small>0.5.18 (2024-12-05)</small>

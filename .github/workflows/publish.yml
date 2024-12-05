@@ -1,4 +1,4 @@
-name: Release
+name: Publish
 
 on:
   push:
@@ -9,8 +9,6 @@ jobs:
   publish:
     name: Publish to NPM
     runs-on: ubuntu-latest
-    environment:
-      name: Release
 
     steps:
       - uses: actions/checkout@v4
@@ -32,4 +30,4 @@ jobs:
       - name: Publish to NPM
         run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKENS }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

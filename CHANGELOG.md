@@ -1,5 +1,7 @@
 # Changelog
 
+## <small>0.5.19 (2024-12-05)</small>
+
 ## <small>0.5.18 (2024-12-05)</small>
 
 - fix: update npm publish command to include public access and enhance README ([d425452](https://github.com/fvena/typescript-library-template.git/commit/d425452))

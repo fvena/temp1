@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.28 (2024-12-05)</small>
+
+- fix: update CI workflow to run on Ubuntu 22.04 and trigger on version tags ([b442d63](https://github.com/fvena/typescript-library-template.git/commit/b442d63))
+
 ## <small>0.5.27 (2024-12-05)</small>
 
 - fix: ensure CI jobs only run for tagged releases ([68e809f](https://github.com/fvena/typescript-library-template.git/commit/68e809f))

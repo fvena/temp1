@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.7.0 (2024-12-05)
+
+- fix: add conditional check for release commit message before publishing to NPM ([1edc540](https://github.com/fvena/typescript-library-template.git/commit/1edc540))
+- fix: add conditional check for successful workflow run before publishing to NPM ([43a4d5e](https://github.com/fvena/typescript-library-template.git/commit/43a4d5e))
+- fix: restore tag push trigger for release workflow ([7c2c932](https://github.com/fvena/typescript-library-template.git/commit/7c2c932))
+- feat: consolidate CI workflows and add publish and documentation build jobs ([6bacb79](https://github.com/fvena/typescript-library-template.git/commit/6bacb79))
+
 ## <small>0.6.1 (2024-12-05)</small>
 
 - fix: update tag pattern in release workflow ([102f8f2](https://github.com/fvena/typescript-library-template.git/commit/102f8f2))

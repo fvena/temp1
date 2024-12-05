@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.27 (2024-12-05)</small>
+
+- fix: ensure CI jobs only run for tagged releases ([68e809f](https://github.com/fvena/typescript-library-template.git/commit/68e809f))
+
 ## <small>0.5.26 (2024-12-05)</small>
 
 - fix: enable cancellation of in-progress workflows and enforce job dependencies in CI ([c45d68c](https://github.com/fvena/typescript-library-template.git/commit/c45d68c))

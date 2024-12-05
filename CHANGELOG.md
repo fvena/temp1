@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.5.25 (2024-12-05)</small>
+
+- refactor: reorganize workflows and update NPM publish process ([49be714](https://github.com/fvena/typescript-library-template.git/commit/49be714))
+
 ## <small>0.5.24 (2024-12-05)</small>
 
 - fix: add conditional execution for NPM publish workflow based on CI completion ([0a47b09](https://github.com/fvena/typescript-library-template.git/commit/0a47b09))
